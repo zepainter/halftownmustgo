@@ -1,0 +1,32 @@
+#navbar {
+  margin-top: 0;
+}
+
+#subheader {
+  margin-top: 12px;
+  width: 90%;
+  display: grid;
+  justify-self: center;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.embcontent {
+  justify-self: center;
+  margin-top: 8px;
+}
+.embpdf {
+  width: 80%;
+  height: 500px;
+  outline: 1px solid var(--purple1,black);
+}
+.embvideo {
+  width: 560px;
+  height: 315px;
+}
+.transcript {
+  margin-top: 12px;
+  padding: 8px;
+  height: 400px;
+  outline: 1px solid var(--purple1,black);
+  overflow-y: scroll;
+}

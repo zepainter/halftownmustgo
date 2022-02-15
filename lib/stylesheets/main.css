@@ -1,0 +1,164 @@
+@font-face {
+  font-family: 'Noto Sans';
+  src: url(../fonts/noto-sans-regular.ttf);
+}
+@font-face {
+  font-family: 'Noto Sans';
+  src: url(../fonts/noto-sans-bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Noto Sans';
+  src: url(../fonts/noto-sans-italic.ttf);
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Noto Sans';
+  src: url(../fonts/noto-sans-bolditalic.ttf);
+  font-weight: bold;
+  font-style: italic;
+}
+
+html {
+  --yellow1: rgb(254,187,87); /*pulled this yellow from the Canva designs*/
+  --yellow2: rgb(255,235,200);
+  --purple1: rgb(37,43,109); /*pulled this purple from the Two Row png*/
+}
+body {
+  width: 100%;
+  display: grid;
+  font-family: 'Noto Sans';
+  background: var(--yellow2,white);
+  color: var(--purple1,black);
+  font-size: 16px;
+}
+
+#headerdiv {
+  position: relative;
+  display: grid;
+  width: 90%;
+  max-width: 800px;
+  margin: 36px;
+  justify-self: center;
+  justify-content: center;
+}
+#headerimg {
+  position: relative;
+  width: 100%;
+}
+#headertext {
+  position: absolute;
+  text-align: center;
+  margin-top: 40px;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+}
+#headerlink {
+  font-size: 60px;
+  font-weight: bold;
+  color: var(--yellow1,white);
+  text-shadow: 0 0 3px var(--purple1,black), 0 0 3px var(--purple1,black), 0 0 3px var(--purple1,black), 0 0 3px var(--purple1,black);
+  text-decoration: none;
+}
+#headerdesc {
+  margin-top: 24px;
+  width: 80%;
+  display: grid;
+  justify-self: center;
+  padding: 20px;
+  background: white;
+  outline: 1px solid var(--purple1,black);
+  border-radius: 5px;
+}
+
+#navbar {
+  margin-top: 36px;
+  margin-bottom: 12px;
+  justify-self: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 16px;
+}
+.navitem {
+  height: 36px;
+  width: 200px;
+  background: var(--yellow1,white);
+  display: grid;
+  font-weight: bold;
+  text-align: center;
+  outline: 1px solid white;
+  border-radius: 3px;
+  align-content: center;
+  cursor: pointer;
+}
+.navitem:hover {
+  text-decoration: underline;
+}
+.navitem a {
+  text-decoration: none;
+}
+#smbar {
+  margin-top: 12px;
+  margin-bottom: 36px;
+  padding: 0 8px 0 8px;
+  justify-self: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 16px;
+  outline: 1px solid white;
+  border-radius: 12px;
+  background: var(--yellow1,white);
+}
+.smitem {
+  height: 40px;
+  width: 40px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  cursor: pointer;
+}
+.smicon {
+  height: 30px;
+}
+
+.textbox {
+  width: 90%;
+  max-width: 800px;
+  display: grid;
+  justify-self: center;
+  margin-top: 24px;
+  padding: 20px;
+  background: white;
+  outline: 1px solid var(--purple1,black);
+  border-radius: 5px;
+}
+h1 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-bottom: 8px;
+  padding-left: 16px;
+}
+a {
+  color: var(--purple1,black);
+}
+.nonfinalp {
+  padding-bottom: 8px;
+}
+
+#closer {
+  margin-top: 48px;
+  margin-bottom: 36px;
+  width: 80%;
+  justify-self: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background: var(--yellow1,white);
+  outline: 1px solid white;
+  border-radius: 6px;
+  font-size: 1.4rem;
+}
+#closer div {
+  text-align: center;
+  padding: 8px;
+}
