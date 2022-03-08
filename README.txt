@@ -5,7 +5,7 @@ Aaron (ask53)
 
 To do:
 - accessibility of PDFs
-- responsive design for tablets & phone screens
+X responsive design for tablets & phone screens
 - add page descriptions and keywords
 - tables of contents on subpages?
 - get transcripts for Wanda's interview and the press conference

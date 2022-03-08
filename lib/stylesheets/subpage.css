@@ -3,7 +3,7 @@
 }
 
 #subheader {
-  margin-top: 12px;
+  margin-top: 198px;
   width: 90%;
   display: grid;
   justify-self: center;
@@ -13,15 +13,22 @@
 .embcontent {
   justify-self: center;
   margin-top: 8px;
+  width: 80%;
 }
 .embpdf {
-  width: 80%;
   height: 500px;
   outline: 1px solid var(--purple1,black);
 }
+.embvideodiv {
+  position: relative;
+  padding-top: 45%;
+}
 .embvideo {
-  width: 560px;
-  height: 315px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
 }
 .transcript {
   margin-top: 12px;
@@ -29,4 +36,25 @@
   height: 400px;
   outline: 1px solid var(--purple1,black);
   overflow-y: scroll;
+}
+
+/*screen size adjustments*/
+@media screen and (max-width: 600px) {
+  .embcontent {
+    width: 90%;
+  }
+  .embvideodiv {
+    padding-top: 50.625%;
+  }
+  .embpdf {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .embcontent {
+    width: 100%;
+  }
+  .embvideodiv {
+    padding-top: 56.25%;
+  }
 }
