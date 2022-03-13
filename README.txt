@@ -1,12 +1,12 @@
 Collaborators
 Riley (zepainter)
 Tori (tmadway)
-Aaron (ask53)
+aaron (ask53)
 
 To do:
 - accessibility of PDFs
 X responsive design for tablets & phone screens
-- add page descriptions and keywords
+X add page descriptions and keywords
 - tables of contents on subpages?
 - get transcripts for Wanda's interview and the press conference
 - confirm Gayogoho:no' words in Sam's transcript
