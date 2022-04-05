@@ -140,6 +140,34 @@ body {
   outline: 1px solid var(--purple1,black);
   border-radius: 5px;
 }
+.embcontent {
+  justify-self: center;
+  margin-top: 8px;
+  width: 80%;
+}
+.embpdf {
+  height: 500px;
+  outline: 1px solid var(--purple1,black);
+}
+.embvideodiv {
+  position: relative;
+  padding-top: 45%;
+}
+.embvideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.transcript {
+  margin-top: 12px;
+  padding: 8px;
+  height: 400px;
+  outline: 1px solid var(--purple1,black);
+  overflow-y: scroll;
+}
+
 h1 {
   font-size: 1.2rem;
   font-weight: bold;
@@ -160,8 +188,9 @@ a {
   justify-self: center;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-content: center;
+  padding: 8px;
   background: var(--yellow1,white);
   outline: 1px solid white;
   border-radius: 6px;
@@ -169,7 +198,7 @@ a {
 }
 #closer div {
   text-align: center;
-  padding: 8px;
+  padding: 2px 6px;
 }
 
 
@@ -182,11 +211,30 @@ a {
     font-size: 50px;
   }
 }
+@media screen and (max-width: 600px) {
+  .embcontent {
+    width: 90%;
+  }
+  .embvideodiv {
+    padding-top: 50.625%;
+  }
+  .embpdf {
+    height: 350px;
+  }
+}
 @media screen and (max-width: 500px) {
   .spacer {
     display: inline;
   }
   #headertext {
     margin-top: 12px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .embcontent {
+    width: 100%;
+  }
+  .embvideodiv {
+    padding-top: 56.25%;
   }
 }
