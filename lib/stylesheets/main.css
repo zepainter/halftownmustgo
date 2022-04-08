@@ -37,8 +37,9 @@ body {
   position: relative;
   display: grid;
   width: 100%;
-  max-width: 800px;
-  margin: 36px 0;
+  max-width: 1000px;
+  margin: 36px 0 6px 0;
+  padding-top: 190px;
   justify-self: center;
   justify-content: center;
   overflow-x: hidden;
@@ -47,7 +48,8 @@ body {
   position: absolute;
   justify-self: center;
   width: 100%;
-  min-width: 800px;
+  width: 800px;
+  margin-bottom: 10px;
 }
 .spacer {
   display: none;
@@ -67,19 +69,19 @@ body {
   text-decoration: none;
 }
 #headerdesc {
-  margin-top: 198px;
-  margin-bottom: 1px;
   width: 80%;
+  max-width: 640px;
+  margin-bottom: 21px;
+  padding: 20px;
   display: grid;
   justify-self: center;
-  padding: 20px;
   background: white;
   outline: 1px solid var(--purple1,black);
   border-radius: 5px;
 }
 
 #navbar {
-  margin: 20px 15px 4px 15px;
+  margin: 0 15px 4px 15px;
   justify-self: center;
   display: flex;
   flex-flow: row wrap;
@@ -107,7 +109,7 @@ body {
 }
 #smbar {
   margin-top: 12px;
-  margin-bottom: 36px;
+  margin-bottom: 10px;
   padding: 0 8px 0 8px;
   justify-self: center;
   display: grid;
@@ -127,6 +129,15 @@ body {
 }
 .smicon {
   height: 30px;
+}
+
+#subheader {
+  margin-top: 20px;
+  width: 90%;
+  display: grid;
+  justify-self: center;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 .textbox {

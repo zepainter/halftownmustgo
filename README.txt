@@ -9,8 +9,7 @@ X responsive design for tablets & phone screens
 X add page descriptions and keywords
 - tables of contents on subpages?
 - get transcripts for Wanda's interview and the press conference
-- confirm Gayogoho:no' words in Sam's transcript
-- do we still want the week of action guide up at all?
+X confirm Gayogoho:no' words in Sam's transcript
 
 ON MATERIALS
 Videos of course are on YouTube.  PDFs are local, because I (Riley) don't know a way to iframe a PDF from Google Drive or the like without just getting "forbidden"--if you do, please fill me in!
