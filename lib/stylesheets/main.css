@@ -151,6 +151,15 @@ body {
   outline: 1px solid var(--purple1,black);
   border-radius: 5px;
 }
+.piclink {
+  justify-self: center;
+  width: 80%;
+  max-width: 300px;
+  margin-top: 8px;
+}
+.pic {
+  width: 100%;
+}
 .embcontent {
   justify-self: center;
   margin-top: 8px;

@@ -1,21 +1,4 @@
-Collaborators
-Riley (zepainter)
-Tori (tmadway)
-aaron (ask53)
-
-To do:
-- accessibility of PDFs
-X responsive design for tablets & phone screens
-X add page descriptions and keywords
-- tables of contents on subpages?
-- get transcripts for Wanda's interview and the press conference
-X confirm Gayogoho:no' words in Sam's transcript
-
-ON MATERIALS
-Videos of course are on YouTube.  PDFs are local, because I (Riley) don't know a way to iframe a PDF from Google Drive or the like without just getting "forbidden"--if you do, please fill me in!
-
-ON FONTS & DIACRITICS
-The only web-usable fonts I (Riley) know of that can handle Gayogoho:no' elegantly are Noto Sans and Noto Serif.  I've included local Noto Sans font files here because just linking to the Noto Sans page on Google's font API doesn't seem to grab the special characters.  Please don't change the font without confirming the new one can handle all the diacritics!  (Though you could change the font of the "Halftown Must Go" title to something more title-worthy.)
+This repository is for the landing page of the #HalftownMustGo campaign.
 
 HTML codes for diacritics and special characters:
 &#769; combining acute accent
