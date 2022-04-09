@@ -23,6 +23,7 @@ html {
   --yellow1: rgb(254,187,87); /*pulled this yellow from the Canva designs*/
   --yellow2: rgb(255,235,200);
   --purple1: rgb(37,43,109); /*pulled this purple from the Two Row png*/
+  --purple2: rgb(100,27,142); /*pulled this yellow from the Canva designs*/
 }
 body {
   width: 100%;
@@ -106,6 +107,7 @@ body {
 }
 .navitem a {
   text-decoration: none;
+  color: var(--purple1,black);
 }
 #smbar {
   margin-top: 12px;
@@ -195,7 +197,7 @@ h1 {
   padding-left: 16px;
 }
 a {
-  color: var(--purple1,black);
+  color: var(--purple2,black);
 }
 .nonfinalp {
   padding-bottom: 8px;
