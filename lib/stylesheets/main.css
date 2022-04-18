@@ -206,15 +206,6 @@ sup {
 .nonfinalp {
   padding-bottom: 8px;
 }
-.extrapaddingtop {
-  padding-top: 16px;
-}
-ul {
-  list-style: circle inside;
-}
-li {
-  padding-top: 4px;
-}
 
 #closer {
   margin-top: 48px;
