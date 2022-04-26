@@ -153,6 +153,9 @@ body {
   outline: 1px solid var(--purple1,black);
   border-radius: 5px;
 }
+.contents {
+  max-width: 500px;
+}
 .piclink {
   justify-self: center;
   width: 80%;
