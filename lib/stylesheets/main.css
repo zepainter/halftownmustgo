@@ -206,6 +206,9 @@ sup {
 .nonfinalp {
   padding-bottom: 8px;
 }
+.indented {
+  padding-left: 16px;
+}
 .extrapaddingtop {
   padding-top: 16px;
 }
