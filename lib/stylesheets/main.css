@@ -89,6 +89,13 @@ body {
   justify-content: center;
   align-items: center;
 }
+.navbardiv {
+  justify-self: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
 .navitem {
   height: 36px;
   width: 200px;
