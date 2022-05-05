@@ -171,6 +171,7 @@ body {
 }
 .pic {
   width: 100%;
+  padding-bottom: 8px;
 }
 .embcontent {
   justify-self: center;
