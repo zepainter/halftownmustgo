@@ -167,11 +167,16 @@ body {
   justify-self: center;
   width: 80%;
   max-width: 300px;
-  margin-top: 8px;
+  margin: 8px 0 8px 0;
 }
 .pic {
   width: 100%;
-  padding-bottom: 8px;
+}
+.photo {
+  justify-self: center;
+  width: 80%;
+  max-width: 500px;
+  margin: 8px 0 12px 0;
 }
 .embcontent {
   justify-self: center;
