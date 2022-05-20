@@ -29,7 +29,7 @@
   border: none;
   margin: 0;
   text-decoration: none;
-  color: black;
+  color: var(--purple1,black);
   font-family: 'Noto Sans';
   cursor: pointer;
   text-align: center;
@@ -38,7 +38,7 @@
   height: 20px;
   margin: 5px 2px 5px 2px;
   background: rgb(237 237 237);
-  outline: 1px solid rgb(50 50 50);
+  outline: 1px solid var(--purple1,black);
   border-radius: 2px;
 }
 .fakepdf-zoomout, .fakepdf-zoomin {
@@ -60,12 +60,12 @@
   padding: 2px 3px 0 3px;
   text-align: center;
   background: rgb(237 237 237);
-  outline: 1px solid rgb(50 50 50);
+  outline: 1px solid var(--purple1,black);
   border-radius: 2px;
 }
 .fakepdf-download a {
   text-decoration: none;
-  color: black;
+  color: var(--purple1,black);
 }
 .embfakepdf button:hover, .fakepdf-download:hover {
   background: rgb(245 245 245);
