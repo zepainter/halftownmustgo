@@ -23,11 +23,13 @@ html {
   --yellow1: rgb(254,187,87); /*pulled this yellow from the Canva designs*/
   --yellow2: rgb(255,235,200);
   --purple1: rgb(37,43,109); /*pulled this purple from the Two Row png*/
-  --purple2: rgb(100,27,142); /*pulled this yellow from the Canva designs*/
+  --purple1a5: rgb(37,43,109,.5);
+  --purple2: rgb(100,27,142); /*pulled this purple from the Canva designs*/
 }
 body {
   width: 100%;
   display: grid;
+  position: relative;
   font-family: 'Noto Sans';
   background: var(--yellow2,white);
   color: var(--purple1,black);
@@ -149,16 +151,45 @@ body {
   font-size: 1.5rem;
 }
 
-.textbox {
+.mask {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  position: fixed;
+  background: var(--purple1a5,black);
+  overflow-y: scroll;
+  overscroll-behavior: contain;
+}
+.textbox, .popup {
   width: 90%;
   max-width: 800px;
   display: grid;
+  position: relative;
   justify-self: center;
   margin-top: 24px;
   padding: 20px;
   background: white;
   outline: 1px solid var(--purple1,black);
   border-radius: 5px;
+}
+.popup {
+  margin-bottom: 24px;
+}
+.xout {
+  display: grid;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1.5px solid var(--purple1,black);
+  justify-content: center;
+  align-content: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-bottom: 1px;
+  cursor: pointer;
 }
 .contents {
   max-width: 500px;
