@@ -22,6 +22,7 @@
 html {
   --yellow1: rgb(254,187,87); /*pulled this yellow from the Canva designs*/
   --yellow2: rgb(255,235,200);
+  --yellow3: rgb(255,211,146);
   --purple1: rgb(37,43,109); /*pulled this purple from the Two Row png*/
   --purple1a5: rgb(37,43,109,.5);
   --purple2: rgb(100,27,142); /*pulled this purple from the Canva designs*/
@@ -112,7 +113,7 @@ body {
   cursor: pointer;
 }
 .navitem:hover {
-  text-decoration: underline;
+  outline: 1px solid var(--purple1,black);
 }
 .navitem a {
   text-decoration: none;
@@ -236,6 +237,63 @@ body {
   outline: 1px solid var(--purple1,black);
   overflow-y: scroll;
 }
+.dropdown-title {
+  padding-top: 2px;
+}
+.dropdown-triangle {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 0;
+  cursor: pointer;
+  margin-right: 2px;
+  margin-bottom: 2px;
+}
+.dropdown-closed {
+  border-left: 12px solid var(--purple1,black);
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-right: 0px solid transparent;
+}
+.dropdown-open {
+  border-top: 12px solid var(--purple1,black);
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 0px solid transparent;
+}
+.extrabtnbox {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 4px 0;
+}
+.extrabtnbox a {
+  margin: 8px 20px 2px 20px;
+}
+.extrabtn {
+  width: 250px;
+  background: var(--yellow1,white);
+  padding: 8px;
+  display: grid;
+  text-align: center;
+  outline: 1px solid white;
+  border-radius: 3px;
+  outline: 1px solid var(--purple1,black);
+  align-content: center;
+  cursor: pointer;
+}
+.extrabtn:hover {
+  background: var(--yellow3,white);
+}
+.dropdown-target {
+  display: none;
+  padding-bottom: 12px;
+}
+#dropdown-offer-target {
+  padding-bottom: 0px;
+}
 
 h2 {
   font-size: 1.2rem;
@@ -243,8 +301,16 @@ h2 {
   padding-bottom: 8px;
   padding-left: 16px;
 }
+h3 {
+  font-weight: bold;
+  padding-bottom: 4px;
+}
 a {
   color: var(--purple2,black);
+}
+.btnlink {
+  color: var(--purple1,black);
+  text-decoration: none;
 }
 sup {
   vertical-align: super;
@@ -258,6 +324,12 @@ sup {
 }
 .extrapaddingtop {
   padding-top: 16px;
+}
+.paddingbottom {
+  padding-bottom: 8px;
+}
+.smalltext {
+  font-size: .8rem;
 }
 ul {
   list-style: circle inside;
